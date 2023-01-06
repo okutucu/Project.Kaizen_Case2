@@ -36,7 +36,7 @@ Oluşturduğumuz sitede dil değiştirme butonunun değişme özelliğine göre 
 
 
 Projemizde BaseController oluşturdum. OnActionExecutionAsync methodu  kullanarak Controller daha ayağa kalmadan önce seçilen dil ayarlamalarını yaptım.
-Bu sayese hangi controller ayağa kalkarsa kalksın cookieden gelen dil seçeneği ile ayağa kalkacaktır. Cookie boş ise default değer olarak "tr-TR" ayarlanmıştır.
+Bu sayede hangi controller ayağa kalkarsa kalksın cookieden gelen dil seçeneği ile ayağa kalkacaktır. Cookie boş ise default değer olarak "tr-TR" ayarlanmıştır.
 
 ![baseco](https://user-images.githubusercontent.com/58344612/210906832-5fcfbf4a-a7b6-41cc-9475-70ebc33d0fa4.png)
 
