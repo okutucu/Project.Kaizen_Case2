@@ -63,6 +63,13 @@ BaseControllerda aldığımız dil değerini hem Resourceslarımıza hemde Dbye 
 ![tr_result](https://user-images.githubusercontent.com/58344612/210907706-b2ab7671-ad5e-402e-bab2-cf7398ad6fe9.png)
 
 
+PROJE ÇALIŞTIRILMASI : Proje db first yöntemi ile yapılmıştır. Repodaki database backup(.bak) dosyasını Mssql'de restore database dedikten sonra dbye aktarmanız
+gerekmektedir. Backup dosyasını dbye aktardıktan sonra Package Manager Console 'dan  Scaffold-DbContext [-Connection] [-Provider] şeklinde yükleyebilirsiniz.
+
+<br /> 
+Provider => Microsoft.EntityFrameworkCore.SqlServer
+
+
 PROJEDE KULLANILAN KÜTÜPHANELER :
 
 Veri tabanlı işlemleri için => EntityFrameworkCore (6.0.12) <br /> 
