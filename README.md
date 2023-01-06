@@ -47,6 +47,11 @@ tanımlamaları yapılmıştır.
 Resourceslarımız Key value değeri tutmaktadır. Sistemin diline göre Key'in karşılığı olan Valueları dönmektedir.
 ![res](https://user-images.githubusercontent.com/58344612/210907270-a0d2bd89-8b71-47f9-b6e2-22db920d9280.png)
 
+NOT : Hatalar veya uyarıları da dil desteği yapabiliriz. Request modellere resources oluşturup bunların çevirilmiş halinede ulaşabiliriz. (Data Anations veya Fluent Api ile )
+
+
+
+
 Database uyumlu dil desteği için Dbye göndereceğimiz sorguda seçilen dilin ismini göndermemiz yeterli olacaktır. Db bize seçilen dile göre verileri getirecektir.
 
 ![join_c](https://user-images.githubusercontent.com/58344612/210907398-95a23340-8a25-4633-a3dd-47219c4b68ad.png)
